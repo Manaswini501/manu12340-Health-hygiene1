@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health & Hygiene</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter&display=swap" rel="stylesheet" />
+    <style>
+         :root {
+            --accent: #4caf50;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        
+        .subtitle {
+            font-size: 1.125rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        
+        button {
+            font-size: 1rem;
+            padding: 0.6rem 1.2rem;
+            background-color: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        main {
+            max-width: 768px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+        }
+        
+        article p {
+            font-size: 1.15rem;
+            padding: 1rem 1.2rem;
+            background-color: #fbfbfb;
+            border-left: 4px solid var(--accent);
+            border-radius: 8px;
+        }
+        
+        footer {
+            text-align: center;
+            font-size: 0.875rem;
+            padding: 1rem;
+            color: #777;
+        }
+        
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: color 0.3s ease-in-out;
+        }
+        
+        footer a:hover {
+            color: #0056b3;
+        }
+        
+        .img {
+            width: 50%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            align-items: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border: black 2px solid;
+        }
+        
+        .img:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+            background-color: chocolate;
+            border-radius: 20px;
+            padding: 5px;
+            box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            .subtitle {
+                font-size: 1rem;
+            }
+            img {
+                width: 100%;
+            }
+            .img {
+                width: 100%;
+            }
+        }
+        
+        .nav-title {
+            background: linear-gradient(to right, #00cba9, #6c5ce7);
+            padding: 10px;
+            text-align: center;
+            animation: slideFade 1.5s ease;
+        }
+        
+        .nav-title h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.8rem;
+            color: white;
+            letter-spacing: 2px;
+            animation: glowPulse 2s infinite alternate;
+        }
+        
+        .nav-title p {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.2rem;
+            color: #f0f0f0;
+            margin-top: 0.5rem;
+        }
+        
+        @keyframes glowPulse {
+            from {
+                text-shadow: 0 0 8px #fff;
+            }
+            to {
+                text-shadow: 0 0 20px #fff;
+            }
+        }
+        
+        @keyframes slideFade {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-title">
+            <h1 style="font-size: 20PX;"> IMPORTANCE OF HEALTH AND HYGIENE</h1>
+            <p class="subtitle"><b>Stay neat , defeat germs.</b></p>
+        </nav>
+    </header>
+
+    <main>
+        <img src="web.png" alt="Health and Hygiene" class="img" />
+        <article>
+
+            <h3 style="text-align: center;">1.🧠 Personal Health & Hygiene
+            </h3>
+            <p>
+                - Importance of daily hygiene routines
+                <Br> - The role of nutrition in maintaining health
+                <Br> - Oral hygiene and its impact on overall health<br> - Mental health and self-care practices<br> - Sleep hygiene and its role in productivity<br> - Hygiene habits in adolescence vs adulthood<br>
+
+            </p>
+        </article>
+
+        <img src="health.jpg" alt="Healthy Living" class="img" />
+        <article>
+
+            <h3 style="text-align: center;">2.🦠 Disease Prevention & Public Health</h3>
+            <p>
+                - Role of handwashing in preventing infections<br> - Vaccination and community health<br> - Hygiene in pandemic preparedness<br> - Impact of poor sanitation on public health<br> - Hygiene education in schools
+
+            </p>
+        </article>
+
+
+        <img src="nutriation.jpg" alt="Healthy Choices" class="img" />
+        <article>
+
+            <h3 style="text-align: center;">3.🍎 Nutrition & Lifestyle</h3>
+            <p>
+                - Balanced diet and immunity<br> - Hydration and its effects on health<br> - Hygiene in food preparation and storage<br> - Physical activity and hygiene (e.g., gym cleanliness)<br> - Clean eating vs processed food habits.
+            </p>
+        </article>
+
+        <img src="medical.jpg" alt="Healthy Habits" class="img" />
+        <article>
+            <h3 style="text-align: center;">4.🏥 Environmental & Medical Hygiene</h3>
+            <p>
+                - Hospital hygiene protocols<br> - Waste disposal and its health implications<br> - Role of sanitation in disease control<br> - Water purification and hygiene<br> - Air quality and respiratory health<br> - Hygiene in rural vs urban settings.
+            </p>
+        </article>
+        <button onclick="changeColor()">Change Accent Color</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HEALTH AND HYGIENE</p>
+    </footer>
+
+    <script>
+        function changeColor() {
+            const root = document.documentElement;
+            const colors = ['#4caf50', '#00bcd4', '#ff6347', '#8e44ad', '#f39c12'];
+            const current = getComputedStyle(root).getPropertyValue('--accent').trim();
+            const next = colors[(colors.indexOf(current) + 1) % colors.length];
+            root.style.setProperty('--accent', next);
+        }
+    </script>
+</body>
+
+</html>
